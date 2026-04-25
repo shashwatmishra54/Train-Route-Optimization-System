@@ -123,6 +123,8 @@ Delhi -> Agra -> Lucknow -> Prayagraj -> Patna -> Madhubani
 Total Distance : 1220 km
 Total Fare : Rs. 1380
 
+---
+
 ## ▶️ How to Run
 
 ```bash id="1a7hds"
