@@ -99,3 +99,34 @@ The current project includes the following stations:
 
 ```bash id="1a7hds"
 g++ train.cpp -o train
+
+
+
+## 🖥️ Sample Output
+
+```text
+===== Train Route Optimization System =====
+
+===== Available Train Stations =====
+
+0. Delhi
+1. Noida
+2. Ghaziabad
+3. Agra
+4. Kanpur
+5. Lucknow
+6. Prayagraj
+7. Varanasi
+8. Patna
+9. Gaya
+10. Madhubani
+
+Enter Source Station Number      : 0
+Enter Destination Station Number : 10
+
+===== Best Route =====
+
+Delhi -> Agra -> Lucknow -> Prayagraj -> Patna -> Madhubani
+
+Total Distance : 1220 km
+Total Fare     : Rs. 1380
