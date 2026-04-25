@@ -95,16 +95,8 @@ The current project includes the following stations:
 
 ---
 
-## ▶️ How to Run
-
-```bash id="1a7hds"
-g++ train.cpp -o train
-
-
-
 ## 🖥️ Sample Output
 
-```text
 ===== Train Route Optimization System =====
 
 ===== Available Train Stations =====
@@ -128,5 +120,12 @@ Enter Destination Station Number : 10
 
 Delhi -> Agra -> Lucknow -> Prayagraj -> Patna -> Madhubani
 
-Total Distance : 1220 km
+Total Distance
+
+## ▶️ How to Run
+
+```bash id="1a7hds"
+g++ train.cpp -o train : 1220 km
 Total Fare     : Rs. 1380
+
+
