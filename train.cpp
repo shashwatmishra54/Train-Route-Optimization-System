@@ -6,7 +6,7 @@ using namespace std;
 
 const int MAX = 100;
 
-// Edge structure
+
 struct Edge
 {
     int destination;
@@ -14,18 +14,17 @@ struct Edge
     int fare;
 };
 
-// Graph
+
 vector<Edge> graph[MAX];
 string stationNames[MAX];
 int stationCount = 0;
 
-// Add station
 void addStation(string name)
 {
     stationNames[stationCount++] = name;
 }
 
-// Add route
+
 void addRoute(int src, int dest, int dist, int fare)
 {
     graph[src].push_back({dest, dist, fare});
@@ -42,7 +41,7 @@ void displayStations()
     }
 }
 
-// Dijkstra Algorithm
+
 void shortestPath(int source, int destination)
 {
     vector<int> dist(stationCount, INT_MAX);
