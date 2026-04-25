@@ -120,12 +120,12 @@ Enter Destination Station Number : 10
 
 Delhi -> Agra -> Lucknow -> Prayagraj -> Patna -> Madhubani
 
-Total Distance
+Total Distance : 1220 km
+Total Fare : Rs. 1380
 
 ## ▶️ How to Run
 
 ```bash id="1a7hds"
-g++ train.cpp -o train : 1220 km
-Total Fare     : Rs. 1380
+g++ train.cpp -o train
 
 
